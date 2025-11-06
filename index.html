@@ -32,13 +32,13 @@
 
     <!-- ----------------------------------------Search Bar----------------------------------------- -->
 
-    <search class="flex justify-center">
+    <search class="flex justify-center ">
         <div class=" relative flex items-center h-12 w-[50%] justify-center  bg-gray-600 hover:bg-gray-500 rounded-4xl ">
             <div class=" absolute   h-6 w-7  left-[0.7em] bg-contain bg-center bg-gray-500 rounded-full" style="background-image: url(./pics/computer.png);" ></div>
-            <input class=" outline-none  absolute left-15" type="text" name="" id="">
-            <div class=" absolute right-40 h-5 w-5 bg-contain bg-center bg-gray-500 rounded-full" style="background-image: url(./pics/microphone.png);"></div>
-            <div class="absolute right-30 h-5 w-5 bg-contain bg-center bg-gray-500 bg-blend " style="background-image: url(./pics/frame.png);"></div>
-            <div class=" right-4 border-gray-600 flex rounded-full  items-center border-2    text-[0.75em] absolute bg-position-[center_left_4px] py-4 px-11  h-7 w-15 bg-size-[25px] bg-no-repeat bg-gray-500 rounded-full" style="background-image: url(./pics/computer.png);"><h2 class=" absolute right-2 text-[1.1em]">AI Mode</h2></div>
+            <input class=" outline-none max-sm:left-12 max-sm:w-[50%] absolute left-15" type="text" name="" id="">
+            <div class="max-sm:hidden absolute right-40 h-5 w-5 bg-contain bg-center bg-gray-500 rounded-full" style="background-image: url(./pics/microphone.png);"></div>
+            <div class=" max-sm:hidden absolute right-30 h-5 w-5 bg-contain bg-center bg-gray-500 bg-blend " style="background-image: url(./pics/frame.png);"></div>
+            <div class=" max-sm:hidden right-4 border-gray-600 flex rounded-full  items-center border-2    text-[0.75em] absolute bg-position-[center_left_4px] py-4 px-11  h-7 w-15 bg-size-[25px] bg-no-repeat bg-gray-500 " style="background-image: url(./pics/computer.png);"><h2 class=" absolute right-2 text-[1.1em]">AI Mode</h2></div>
         </div>
     </search>
 
@@ -56,8 +56,8 @@
 
     <!-- --------------------------------------------------- text ----------------------------------------  -->
 
-    <div class="mt-[3em]">
-        <h2 class="text-[0.8em] text-center" >Google offered in: <span class="text-blue-800"> हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ </span></h2>
+    <div class="mt-[3em] max-sm:flex max-sm:justify-center">
+        <h2 class="text-[0.8em] text-center max-sm:w-[90%]" >Google offered in: <span class="text-blue-800"> हिन्दी বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ </span></h2>
     </div>
 
 
@@ -69,13 +69,13 @@
     </footer>
 
 
-    <footer class=" text-[15px] py-3  flex justify-between">
-        <div class="flex gap-x-8 justify-center ml-10">
+    <footer class=" text-[15px] py-3   flex justify-between">
+        <div class=" max-sm:flex-col flex gap-x-8 justify-center ml-10">
             <h2>Advertising</h2>
             <h2>Business</h2>
             <h2>How Search works</h2>
         </div>
-     <div class=" gap-x-6 mr-10 flex">
+     <div class=" gap-x-6 mr-10 flex max-sm:flex-col">
         <h2>Privacy</h2>
         <h2>Terms</h2>
         <h2>Settings</h2>
